@@ -1,18 +1,23 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+    
 body{
     background-color: #F2F2F2;
     margin: 0;
-    font-family: 'Montserrat';
+    font-family: 'Roboto';
 }
     
     html, body {
     scroll-behavior: smooth;
     }
     
+.logo {
+    background-color: #f9d0cf;
+    height: 180px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
 .header {
     background-color: #f9d0cf;
     color: white;
@@ -107,7 +112,7 @@ body{
 
 .products{
     color: #bbbec3;
-    background-color: yellow;
+    background-color: white;
     text-align: center;
     padding-top: 20px;
     padding-left: 60px;
@@ -173,6 +178,7 @@ body{
     border: 1px;
     border-radius: 12px;
     color: #8e8586;
+    font-family: 'Roboto';
     font-size: 1rem;
     margin: 5px 0;
     padding: .5rem;
