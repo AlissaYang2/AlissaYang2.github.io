@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
     
 body{
     background-color: #F2F2F2;
@@ -11,85 +13,80 @@ body{
     }
     
 .logo {
-    background-color: #BF9B77;
-    height: 150px;
+    background-color: #E0B0A6;
+    height: 180px;
     text-align: center;
     padding-top: 20px;
 }
 
 
 .header {
-    background-color: #BF9B77;
-    color: white;
-    height: 20px;
+    background-color: #E0B0A6;
+    height: 40px;
     padding-top: 20px;
-    Padding-bottom: 20px;
-    border-bottom: 6px solid #DBC2A9;
+    Padding-bottom: 50px;
+    border-bottom: 6px solid #F0C6BD;
     text-align: center;
     position: center;
 }
 
 #links {
-    font-size: 1rem;
-    color: #FFF2E6;
+    font-size: 1.1em;
+    color: #C9B79B;
     text-align: center;
 }
 
 #links a{
     color: white;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-decoration: none;
 }
 
-.home{
-    background-color: white;
+body .about{
+    background-image: url(abo-cat.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat, repeat-x;
+    background-size: 200px, auto;
 }
 
 .about{
-    color: #bbbec3;
-    background-color: #faf3f1;
+    color: black;
+    background-color: white;
     text-align: center;
     padding-top: 20px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 70px;
+    padding-right: 70px;
     padding-bottom: 20px;
     margin-top: auto;
 }
 
 #abo {
-    color: #a7a9ac;
+    color: black;
+    font-family: 'Pattaya';
 }
 
 #abo p{
-    padding-left: 40px;
+    color:aqua;
+    max-width: 200px
 }
 
-.gallery{
-    background-color: #eedbcc;
-    color: white;
-    text-align: center;
-    padding-bottom: 20px;
-    padding-top: 10px;
-}
-
-.gallery div {
-    margin-bottom: 60px;
-}
 
 .method{
-    color: #bbbec3;
-    background-color: black;
+    color: black;
+    background-color: #D7DDDE;
     text-align: center;
     padding-top: 20px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 70px;
+    padding-right: 70px;
     padding-bottom: 20px;
     margin-top: auto;
 }
 
 #met {
-    color: #a7a9ac;
+    color: black;
+    font-family: 'Pattaya';
 }
 
 #met p{
@@ -98,18 +95,19 @@ body{
 }
 
 .products{
-    color: #bbbec3;
+    color: black;
     background-color: white;
     text-align: center;
     padding-top: 20px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 70px;
+    padding-right: 70px;
     padding-bottom: 20px;
     margin-top: auto;
 }
 
 #pro {
-    color: pink;
+    color: black;
+    font-family: 'Pattaya';
 }
 
 #pro p{
@@ -117,13 +115,31 @@ body{
     
 }
 
+.gallery{
+    background-color: #A4B6BF;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#gal {
+    color: black;
+    font-family: 'Pattaya';   
+}
+
+.gallery div {
+    margin-bottom: 60px;
+}
+
 #con{
     color: #80909a;
+    font-family: 'Pattaya';
 }
 
 .contact {
-    background-color: #d4c6bd;
-    color: #8e8586;
+    background-color: #829BA8;
+    color: black;
     line-height: 2rem;
     padding: 40px 20px;
 }
@@ -137,14 +153,15 @@ body{
     margin: auto;
     max-width: 950px;
     text-align: center;
-    color:#767071
+    color: pink;
+    font-family: 'Pattaya';
 }
 
 
 .contact h2 {
     text-align:center;
     margin-top: 0;
-    color:#8e8586;
+    color: yellow;
         
 }
 
@@ -161,10 +178,10 @@ body{
 
 .contact input,
 .contact textarea {
-    background-color: #f9efea ;
+    background-color: white ;
     border: 1px;
     border-radius: 5px;
-    color: #8e8586;
+    color: aqua;
     font-family: 'Roboto';
     font-size: 1rem;
     margin: 5px 0;
@@ -173,8 +190,8 @@ body{
 }
 
 .footer {
-    color: #dfdbd8;
-    background-color: #8f8883;
+    color: white;
+    background-color: #57798F;
     font-size: 1.2rem;
     padding-top: 30px;
     padding-bottom: 10px
@@ -185,11 +202,11 @@ body{
     grid-template-columns: 65% auto;
     text-align: center;
     margin: auto;
-    border-bottom: 6px solid #9e9893;
+    border-bottom: 6px solid #638399;
 }
 
 .footer .top {
-    margin-top: -15px;
+    margin-top: -30px;
     text-align: right;
     padding-right: 80px;
     font-size: 3rem;
