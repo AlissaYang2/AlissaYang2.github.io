@@ -124,6 +124,15 @@ body{
     width:100%;
 }
 
+.row{
+    padding-top: 50px;
+}
+
+.productimgs{
+    padding-top: 40px
+}
+
+
 .gallery{
     background-color: #A4B6BF;
     color: black;
