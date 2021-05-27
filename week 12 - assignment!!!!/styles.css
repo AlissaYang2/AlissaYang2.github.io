@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
     
 body{
@@ -19,17 +20,6 @@ body{
     text-align: center;
     padding-top: 20px;
 }
-
-@media(max-width: 576px){ 
-}
-@media (min-width: 768px) {  
-}
-@media (min-width: 992px) {
-}
-@media (min-width: 1200px) {
-}
-
-
 
 .header {
     position: sticky;
@@ -68,7 +58,7 @@ body{
 .about{
     position: relative;
     z-index: 1;
-    color: black;
+    color: #202433;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -79,14 +69,11 @@ body{
 
 #abo {
     
-    color: black;
-    font-family: 'Pattaya';
+    color: #202433;
+    font-family: 'cookie';
+    font-size: 3rem;
 }
 
-#abo p{
-    color:aqua;
-    max-width: 200px
-}
 
 #background{
     position: absolute;
@@ -94,7 +81,7 @@ body{
     justify-content:center;
     align-items: center;
     width: 100%;
-    opacity: 0.7;
+    opacity: 0.6;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)
@@ -102,7 +89,7 @@ body{
 }
 
 .method{
-    color: black;
+    color: #273636;
     background-color: #D7DDDE;
     text-align: center;
     padding-top: 20px;
@@ -112,8 +99,9 @@ body{
 }
 
 #met {
-    color: black;
-    font-family: 'Pattaya';
+    color: #273636;
+    font-family: 'cookie';
+    font-size: 3rem;
 }
 
 #met p{
@@ -121,8 +109,12 @@ body{
     
 }
 
+.method h2{
+    font-size: 1.5rem;
+}
+
 .products{
-    color: black;
+    color: #3D4A4A;
     background-color: white;
     text-align: center;
     padding-top: 20px;
@@ -132,8 +124,9 @@ body{
 }
 
 #pro {
-    color: black;
-    font-family: 'Pattaya';
+    color: #3D4A4A;
+    font-family: 'cookie';
+    font-size: 3rem;
 }
 
 #pro p{
@@ -149,47 +142,60 @@ body{
     padding-bottom: 20px;
 }
 
+.products h2{
+    font-size: 1.5rem;
+}
+
 .row{
     padding-top: 50px;
 }
 
-
-
-
-
 .gallery{
     background-color: #A4B6BF;
-    color: black;
+    color: #2C314A;
     text-align: center;
     padding-bottom: 20px;
     padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #gal {
-    color: black;
-    font-family: 'Pattaya';   
+    color: #2C314A;
+    font-family: 'cookie';
+    font-size: 3rem;
 }
 
-.gallery div {
-    margin-bottom: 60px;
+.galleryimg {
+    margin: 0;
+    width:100%;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    
+    
+}
+
+.gallery h2{
+    font-size: 1.6rem
 }
 
 #con{
     color: #80909a;
-    font-family: 'Pattaya';
+    font-family: 'cookie';
+    font-size: 3rem;
 }
 
 .contact {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #829BA8;
-    color: white;
+    color: #E6E6E8;
     line-height: 2rem;
 }
 
 .contact p{
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 .contact #con {
@@ -197,37 +203,54 @@ body{
     max-width: 950px;
     text-align: center;
     color: white;
-    font-family: 'Pattaya';
+    font-family: 'cookie';
+    font-size: 3rem;
 }
 
-
 .contact h2 {
+    font-size: 1.6rem;
     text-align:center;
     margin-top: 0;
     color: white;
         
 }
 
+.contactinfo{
+    color: #E6E6E8;
+    margin-bottom: 0;
+}
+
+.contact .social{
+    margin-top: 0;
+    text-align: center; 
+}
+
+.contact .social img{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
 .contact form {
     padding-top: 0px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
 .contact form p {
     font-size: .8rem;
-    line-height: 1.1rem;
-    margin-top: 0;
+    line-height: 1rem;
 }
 
 .contact input,
 .contact textarea {
     background-color: white ;
     border: 1px;
-    border-radius: 5px;
-    color: aqua;
+    border-radius: 20px;
+    color: #829BA8;
     font-family: 'Roboto';
     font-size: 1rem;
-    margin: 5px 0;
+    margin: 3px 0;
     padding: .5rem;
     width: 50%;
 }
@@ -264,4 +287,5 @@ body{
     transform: translate(-50%, -50%)
 
 }
+
 

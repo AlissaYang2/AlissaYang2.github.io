@@ -5,16 +5,14 @@
 <head>
     <meta charset="utf-8">
     <title> Final Assignment-Alissa Yang</title>
-    <meta name="Assignment" content="Introduction to web development assignment 2">
+    <meta name="Assignment" content="Introduction to Web Development assignment 2">
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>   
     
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
 </head>   
     
     
@@ -68,7 +66,7 @@
     
 <div class="method">   
     <h1 id="met">Method</h1>
-        <p>Having a Bonsai Kitten is not as hard as it seems!</p>
+        <h2>Having a Bonsai Kitten is not as hard as it seems!</h2>
         <p>
             <li>Simply place your under 3 month kitten in one of our specially designed jars</li>  
             <li>Blend up your kittens food and push it through the tube provided into your kittens mouth 3 times a day</li> 
@@ -83,7 +81,7 @@
          
 <div class="products">   
     <h1 id="pro">Products</h1>
-    <p>We have a wide range of products available.  There is something for everyone!</p>
+    <h2>We have a wide range of products available.  There is something for everyone!</h2>
     <br/>
     <p>Our jars are handmade on our site in Wellington.  We can also do custom jars made to your satisfaction! Come and visit or contact us, we are sure you will find something you love</p>
     <p>Our products are available instore only so you and your kitten can enjoy the experience. So remember to take you kitten with you! </p>
@@ -192,15 +190,81 @@
     
 <div class="gallery">
      <h1 id="gal">Gallery</h1>
-    <p>Here are some happy customers and kittens</p>
     
-    <div class="gallery">
-        
-    <div class="col-md-6 col-lg-4">
+    <h2>Here are some happy customers and kittens</h2>
+    
+    <div class="row">    
+    <div class="col-md-6 col-lg-4 col-xl-3">
     <div class="galleryimg">
-    <a data-fancybox="gallery" href="gal1-large.jpeg"><img src="hanging_small.jpg"></a>
+    <a data-fancybox="gallery" href="gal1-large.jpg"><img src="gal1-small.jpg"></a>
     </div>
     </div>  
+        
+    <div class="col-md-6 col-lg-4 col-xl-3">
+    <div class="galleryimg">
+    <a data-fancybox="gallery" href="gal2-large.jpg"><img src="gal2-small.jpg"></a>
+    </div>
+    </div> 
+     
+    <div class="col-md-6 col-lg-4 col-xl-3">
+    <div class="galleryimg">
+    <a data-fancybox="gallery" href="gal3-large.jpeg"><img src="gal3-small.jpeg"></a>
+    </div>
+    </div>     
+        
+    <div class="col-md-6 col-lg-4 col-xl-3">
+    <div class="galleryimg">
+    <a data-fancybox="gallery" href="gal4-large.jpeg"><img src="gal4-small.jpeg"></a>
+    </div>
+    </div> 
+        
+    <div class="col-md-6 col-lg-4 col-xl-3">
+    <div class="galleryimg">
+    <a data-fancybox="gallery" href="gal5-large.jpeg"><img src="gal5-small.jpeg"></a>
+    </div>
+    </div>   
+        
+    <div class="col-md-6 col-lg-4 col-xl-3">
+    <div class="galleryimg">
+    <a data-fancybox="gallery" href="gal6-large.jpeg"><img src="gal6-small.jpeg"></a>
+    </div>
+    </div>   
+    
+    <div class="col-md-6 col-lg-4 col-xl-3">
+    <div class="galleryimg">
+    <a data-fancybox="gallery" href="gal7-large.jpeg"><img src="gal7-small.jpeg"></a>
+    </div>
+    </div>
+        
+    <div class="col-md-6 col-lg-4 col-xl-3">
+    <div class="galleryimg">
+    <a data-fancybox="gallery" href="gal8-large.jpeg"><img src="gal8-small.jpeg"></a>
+    </div>
+    </div>
+        
+    <div class="col-md-6 col-lg-4 col-xl-3">
+    <div class="galleryimg">
+    <a data-fancybox="gallery" href="gal9-large.jpeg"><img src="gal9-small.jpeg"></a>
+    </div>
+    </div>    
+        
+    <div class="col-md-6 col-lg-4 col-xl-3">
+    <div class="galleryimg">
+    <a data-fancybox="gallery" href="gal10-large.jpeg"><img src="gal10-small.jpeg"></a>
+    </div>
+    </div>     
+     
+    <div class="col-md-6 col-lg-4 col-xl-3">
+    <div class="galleryimg">
+    <a data-fancybox="gallery" href="gal11-large.jpeg"><img src="gal11-small.jpeg"></a>
+    </div>
+    </div>     
+        
+    <div class="col-md-6 col-lg-4 col-xl-3">
+    <div class="galleryimg">
+    <a data-fancybox="gallery" href="gal12-large.jpeg"><img src="gal12-small.jpeg"></a>
+    </div>
+    </div>     
         
     </div> 
     </div>
@@ -208,7 +272,8 @@
 <div class="contact">   
     <h1 id="con">Contact</h1>
     <p>For any questions and enquiry, feel free to contact us! </p>
-    <form>
+    
+    <div class="contactinfo">
             <h2>Contact Information</h2>
             <p>
                 Bonsai Kitten Co
@@ -217,34 +282,37 @@
                 <br/>
                 bonsaikitten@meow.co.nz
                 <br/>
-                0800 BONSAI (266724)
-            </p>
+                0800 BONSAI CATS
+            </p> 
         
-<div>
-    
+         <div class="social">
+            <img src="insta.png" />
+            <img src="fb.png" />
+    </div> 
+   </div>
+
+<div>    
     <h2>Join our mailing list</h2>
+    <form>
         <input type="text" value="Name:" />
     <br />
         <input type="text" value="Email:" />    
-               
-     </div>
-        <div>
-        </div>
-        </form>
-</div>    
+              
+    </form>
+</div>  
+    </div>    
      
      <div class="footer">
         <div>
+               
             Alissa Yang (21010851) &bull; May 27 2021 &bull; Introduction To Web Development &bull; 289101
          </div>
          
          <div class="top">
              <a href="#log">TOP</a>
-         </div>   
+         </div> 
          
      </div>
-
-     
     </body>
     </html>
  
